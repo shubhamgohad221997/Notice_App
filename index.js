@@ -22,8 +22,8 @@ app.get('/', (req, res) => res.send('hello'))
 
 
 
-app.listen(8080, async () => {
+app.listen(8000, async () => {
     await connect()
-    console.log('server started on port 8080')
+    console.log('server started on port 8000')
 
 })
